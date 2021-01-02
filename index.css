@@ -1,0 +1,123 @@
+/*navbar styles*/
+.navbar {
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  background-color: #d7edff;
+  border-radius: 5px;
+}
+#switchIcon{
+  max-width: 32px;
+  max-height: 32px;
+}
+#lampIcon {
+  max-width: 32px;
+  max-height: 32px;
+  opacity: 0.8;
+}
+.btn {
+  margin-left: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #d7edff;
+}
+
+/*content styles*/
+.content {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  margin-top: 0.1rem;
+  padding: 1rem;
+  background-color: #d7edff;
+  border-radius: 5px;
+  /* left: -10000px; */
+}
+.val {
+  padding: 5px;
+  width: 25%;
+  vertical-align: middle;
+  outline: none;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+.val:focus {
+  padding: 5px;
+  width: 25%;
+  vertical-align: middle;
+  outline: none;
+  border: 1px solid #bbbbbb;
+  border-radius: 5px;
+  background-color: #f9fbfb;
+}
+
+#addIcon {
+  max-width: 32px;
+  max-height: 32px;
+  vertical-align: middle;
+  opacity: 0.7;
+}
+
+/* container styles */
+.container {
+  
+  padding: 1rem;
+  border: 1px solid #a4baff;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.container>.hh {
+    opacity: 0.75;
+    text-align: center;
+    font-size: 16pt;
+    font-family: serif;
+}
+.container>p {
+    opacity: 0.75;
+    font-size: 16pt;
+    font-family: serif;
+}
+
+.checker {
+  margin-right: 2rem;
+}
+
+hr {
+  border: 1px solid #a4baff;
+  background-color: #a4baff;
+}
+.items {
+  display: flex;
+  vertical-align: middle;
+  position: relative;
+  align-items: center;
+}
+.waste {
+  padding: 5px;
+  position: absolute;
+  max-width: 16px;
+  max-height: 16px;
+  right: 0;
+  cursor: pointer;
+}
+::placeholder {
+  color: #888888;
+}
+.tasks {
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #d7edff;
+  border: 1px solid #a4baff;
+  border-radius: 5px;
+  opacity: 0.75;
+  font-size: 16pt;
+  font-family: serif;
+}
+
+
+
+
+
+
